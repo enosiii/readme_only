@@ -76,7 +76,7 @@ ls -la /opt/splunk/
 ### **Step 3: Initial Splunk Configuration**
 ```bash
 # 1. Start Splunk for the first time (accepts license)
-sudo -u splunk /opt/splunk/bin/splunk start --accept-license --answer-yes
+sudo -u splunk_fpi /opt/splunk/bin/splunk start --accept-license --answer-yes
 
 # 2. Set admin password immediately (IMPORTANT!)
 # Create password file
